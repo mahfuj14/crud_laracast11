@@ -18,7 +18,7 @@
 <li>delete</li>
 <br>
 <h2>Index Page</h2>
-<img width="800" height="500" src="https://github.com/mahfuj14/crud_laracast11/assets/67245838/681ce2e0-36ca-4b6b-ae7e-ec2edae7bad9"></img>
+<img width="720" height="405" src="https://github.com/mahfuj14/crud_laracast11/assets/67245838/681ce2e0-36ca-4b6b-ae7e-ec2edae7bad9"></img>
 
 <h2>Movie Details Page</h2>
 <img width="800" height="500" src="https://github.com/mahfuj14/crud_laracast11/assets/67245838/7d1bb468-f726-457a-86be-9d03f90ed6d5"/>
