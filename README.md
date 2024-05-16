@@ -10,7 +10,7 @@
 <h2>Youtube Video Link</h2>
 <iframe src="https://www.youtube.com/embed/Dg-0z3o4C0w?si=IHnAfN52O1t0R3EV"/>
 <br>
-<h1>Crud Operation in Laravel</h1>
+<h1>Crud Operation in Laravel & Tailwind CSS</h1>
 <li>index</li>
 <li>create</li>
 <li>show</li>
