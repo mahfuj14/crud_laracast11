@@ -7,8 +7,10 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-<h2>Index Page</h2>
-<img src="https://github.com/mahfuj14/crud_laracast11/assets/67245838/681ce2e0-36ca-4b6b-ae7e-ec2edae7bad9"></img>
-
 <h2>Youtube Video Link</h2>
 <iframe src="https://www.youtube.com/embed/Dg-0z3o4C0w?si=IHnAfN52O1t0R3EV"></iframe>
+
+<h2>Index Page</h2>
+<img width="300" height="250" src="https://github.com/mahfuj14/crud_laracast11/assets/67245838/681ce2e0-36ca-4b6b-ae7e-ec2edae7bad9"></img>
+
+
