@@ -27,6 +27,6 @@
 <img width="800" height="500" src="https://github.com/mahfuj14/crud_laracast11/assets/67245838/f0e39d50-d745-4fd3-9fc0-8c291fb25e7a"/>
 
 <h2>Movie Update Page</h2>
-<img width="800" height="500" src="https://github.com/mahfuj14/crud_laracast11/assets/67245838/f400504b-4155-40d2-85b3-f6e8131effc9/>
+<img width="800" height="500" src="https://github.com/mahfuj14/crud_laracast11/assets/67245838/f400504b-4155-40d2-85b3-f6e8131effc9"/>
 
 
