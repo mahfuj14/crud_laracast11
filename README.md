@@ -8,5 +8,5 @@
 </p>
 
 <h2>Index Page</h2>
-<a href="https://github.com/mahfuj14/crud_laracast11/assets/67245838/681ce2e0-36ca-4b6b-ae7e-ec2edae7bad9"></a>
+<img href="https://github.com/mahfuj14/crud_laracast11/assets/67245838/681ce2e0-36ca-4b6b-ae7e-ec2edae7bad9"></img>
 
