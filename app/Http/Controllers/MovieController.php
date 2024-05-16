@@ -29,13 +29,14 @@ class MovieController extends Controller
             'release_date' => 'required',
             'budget' => 'required',
             'genre' => 'required',
-            
+            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:4096'
         ]);
-        /*if (request()->hasFile('image')) {
-            $imageName = time().'.'.request()->image_name->extension();
-            $doctor->image_name=  $imageName;
-            request()->image_name->storeAs('profilephotos', $imageName,'public');
-        }*/
+        $image='';
+        if (request()->hasFile('image')) {
+            /*dd(request()->file('image'));*/
+            $image = time().'.'.request()->image->extension();
+            request()->image->move(public_path('images'), $image);
+        }
         Movie::create([
             'title' => request('title'),
             'cast' => request('cast'),
@@ -43,7 +44,7 @@ class MovieController extends Controller
             'release_date' => request('release_date'),
             'budget' => request('budget'),
             'genre' => request('genre'),
-            'image_name' => $imageName
+            'image' => $image
         ]);
         return redirect('/movies');
 
@@ -60,15 +61,26 @@ class MovieController extends Controller
             'producer' => 'required',
             'release_date' => 'required',
             'budget' => 'required',
-            'genre' => 'required'
+            'genre' => 'required',
+            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:4096'
         ]);
+        $image='';
+        if (request()->hasFile('image')) {
+            /*dd(request()->file('image'));*/
+            $image = time().'.'.request()->image->extension();
+            request()->image->move(public_path('images'), $image);
+        }
+        else{
+            $image= request('image');
+        }
         $movie->update([
             'title' => request('title'),
             'cast' => request('cast'),
             'producer' => request('producer'),
             'release_date' => request('release_date'),
             'budget' => request('budget'),
-            'genre' => request('genre')
+            'genre' => request('genre'),
+            'image'=> $image
         ]);
         return redirect('/movies/'.$movie->id);
 
